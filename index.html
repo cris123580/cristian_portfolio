@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Cristian Cristina, Software Developer student focused on front-end development.">
+  <title>Cristian Cristina | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">CC<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPER STUDENT · GRONINGEN</p>
+        <h1>Building digital<br><span>experiences.</span></h1>
+        <p class="intro">Hi, I’m Cristian — a Software Developer student focused on front-end development. I enjoy turning ideas into clean, useful and user-friendly digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Let’s connect</a>
+        </div>
+        <div class="hero-note"><span>01</span> Curious mind. Practical skills. Always learning.</div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative abstract portfolio graphic">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-card"><div class="code-top"><i></i><i></i><i></i><span>developer.js</span></div>
+          <pre><span class="purple">const</span> developer = {
+  name: <span class="green">"Cristian"</span>,
+  focus: <span class="green">"Front-end"</span>,
+  mindset: <span class="green">"Keep learning"</span>,
+  build() {
+    <span class="purple">return</span> <span class="green">"Something useful"</span>;
+  }
+};</pre>
+        </div>
+        <div class="floating-tag tag-top">HTML · CSS · JavaScript</div>
+        <div class="floating-tag tag-bottom">Ideas → Interfaces</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 / ABOUT ME</div>
+      <div class="about-content"><h2>Curiosity drives<br>my next step.</h2>
+        <div><p>I’m currently in my second year of the Software Developer programme at Alfa-college, following the front-end development profile.</p>
+        <p>My background in electrical engineering, hospitality and administration taught me to solve problems, work with different people and stay focused in busy environments. Now I’m building on that experience through software development.</p>
+        <p class="muted">Based in Groningen, The Netherlands.</p></div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-label">02 / WHAT I BRING</div>
+      <h2>Skills & strengths</h2>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-number">01</span><h3>Front-end learning</h3><p>Developing my software skills and learning how to create accessible, responsive interfaces.</p></article>
+        <article class="skill-card"><span class="skill-number">02</span><h3>Digital tools</h3><p>Experience with Microsoft Word, Excel and PowerPoint, with a growing technical toolkit.</p></article>
+        <article class="skill-card"><span class="skill-number">03</span><h3>Teamwork</h3><p>Customer-focused, flexible and comfortable collaborating with colleagues.</p></article>
+        <article class="skill-card"><span class="skill-number">04</span><h3>Growth mindset</h3><p>Patient, positive and motivated to learn new tools and improve through practice.</p></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label">03 / SELECTED WORK</div>
+      <div class="section-heading"><h2>Projects in progress</h2><p>Replace these sample cards with links, screenshots and details of your real projects.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-dark"><div class="project-art art-maze"><span>↗</span><div class="maze">＋ ─ ┬ ─ ＋<br>│ ● │ ◆ │<br>＋ ─ ┴ ─ ＋</div></div><div class="project-info"><p class="project-type">GAME DEVELOPMENT · CONCEPT</p><h3>Math Maze</h3><p>A Pac-Man-inspired learning game concept that combines a maze with quick maths challenges.</p><div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div></div></article>
+        <article class="project-card"><div class="project-art art-particles"><span>✳</span><div class="particle p1"></div><div class="particle p2"></div><div class="particle p3"></div><div class="particle p4"></div><div class="particle p5"></div></div><div class="project-info"><p class="project-type">INTERACTIVE WEB · CONCEPT</p><h3>Move It 3D</h3><p>An experimental idea for a browser-based particle game controlled with hand movements.</p><div class="tags"><span>JavaScript</span><span>Three.js</span><span>MediaPipe</span></div></div></article>
+        <article class="project-card"><div class="project-art art-web"><div class="mini-window"><b>CC<span>.</span></b><i></i><i></i><i></i><div class="mini-lines"></div></div></div><div class="project-info"><p class="project-type">WEB DESIGN · PORTFOLIO</p><h3>Personal Portfolio</h3><p>A responsive portfolio website to present my skills, learning journey and development projects.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-label">04 / GET IN TOUCH</div><div class="contact-inner"><h2>Have an opportunity<br>or an idea?</h2><p>I’m open to learning opportunities, internships and conversations about front-end development.</p><a class="button light" href="mailto:criscristinaspfy8@gmail.com">criscristinaspfy8@gmail.com ↗</a></div>
+    </section>
+  </main>
+  <footer><a class="logo" href="#home">CC<span>.</span></a><p>Designed and built with curiosity by Cristian Cristina.</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
